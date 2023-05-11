@@ -1,4 +1,25 @@
 :root { 
-    --branco-principal: #FFFFFFFF ;
-    --cinza-principal:#C0C0C0 ;
+    --brancoPrin: #FFFFFFFF;
+    --cnzSec:#C0C0C0;
+    --botaoAz:  #167BF7;
+    --corFnd:#00030C;
+
+}
+
+body {
+    background-color: var(--corFnd);
+    color: var(--brancoPrin);
+}
+
+* {
+     margin: 0; padding: 0;
+}
+.principal {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+
 }
