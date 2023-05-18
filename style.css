@@ -47,7 +47,7 @@ body {
     margin-bottom: 1em;
 
 }
-.botao_secundario {
+.botao__secundario {
     background-color: transparent;
     border: 2px solid var(--brancoPrin);
 }
@@ -63,3 +63,30 @@ body {
 .container__cx {
     margin: 0 6em;
 }
+
+.sec__img {
+    width: 80%;
+}
+
+.sec{
+    align-items: center;
+    margin:0 10em;
+}
+.desc__tit{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--brancoPrin);
+    margin-bottom: 0.1em;
+}
+.descricao__tx {
+    color: var(--cnzSec);
+}
+
+.botao__secundario { 
+    display: inline-block;
+    margin-top: 1em;
+ }
+.container__desc {
+     padding: 2em; 
+ }
+
