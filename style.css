@@ -3,7 +3,8 @@
     --cnzSec:#C0C0C0;
     --botaoAz:  #167BF7;
     --corFnd:#00030C;
-    --fonteprincipal: 'inter'
+    --fonteprincipal: 'inter';
+    --botao-AZefeito:  #3c92fa;
 
 }
 
@@ -82,11 +83,75 @@ body {
     color: var(--cnzSec);
 }
 
-.botao__secundario { 
+.secundario__botao { 
     display: inline-block;
     margin-top: 1em;
+    background-color: transparent;
+    border: 2px solid var(--brancoPrin);
  }
 .container__desc {
      padding: 2em; 
  }
 
+.disp__lista {
+   display: flex;
+   justify-content:center;
+   list-style-type: none;
+   margin: 5em 0;
+}
+
+.dispositivos {
+   text-align: center;
+}
+
+.disp__tit {
+   font-size: 48px;
+
+}
+.list__itens {
+   font-size:32px;
+   color: var(--brancoPrin);
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+
+}
+
+.rod__logo{
+    text-align: center;
+}
+
+
+.rod_lists{
+   display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+
+}
+.list__link a{
+    color: var(--brancoPrin);
+    text-decoration: none;
+    margin-left: 1em  ;
+}
+
+   
+.rodape__tx {
+    margin-bottom: 1em 0;
+    color: var(--cnzSec);
+    font-size: 14px;
+    margin: 1em 0;
+}
+.list__link a:hover {
+    color: var(--botaoAz);
+}
+.list__link a:active {
+     color: purple;
+} 
+
+.container__botao:hover { 
+    background-color: var(--botao-AZefeito); 
+    color: var(--corFnd); 
+}
